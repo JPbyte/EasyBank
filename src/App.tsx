@@ -1,13 +1,18 @@
+/* Page home */
+import Home from "./pages/index"
+
+/* Bootstrap CSS */
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* Global Style */
 import "./styles/Global.scss"
 
 function App() {
   return (
     <>
-      <h1>
-
-      </h1>
+      <Home/>
     </>
   )
 }
 
-export default App
+export default App;

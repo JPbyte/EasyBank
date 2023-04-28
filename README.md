@@ -42,7 +42,6 @@ Desktop Design:
 
 ### Built with
 
-- Mobile-first workflow
 - SASS/SCSS
 - [Bootstrao](https://getbootstrap.com) - Bootstrap
 - [React](https://reactjs.org/) - JS library

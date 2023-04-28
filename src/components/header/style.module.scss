@@ -1,0 +1,15 @@
+@import "../../styles/colors.module.scss";
+
+.header{
+    width: 100%;
+    background-color: $White;
+}
+.navBarCollapse{
+    width: 100%;
+    max-width: 25rem;
+}
+.achor{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
