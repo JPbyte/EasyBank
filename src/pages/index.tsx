@@ -1,10 +1,10 @@
-import HeaderComponent from "../components/header/header";
+import Header from "../components/header/header";
 
 
 function Home(){
     return(
         <>
-            <HeaderComponent/>
+            <Header/>
         </>
     );
 }
