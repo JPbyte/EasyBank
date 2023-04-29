@@ -1,0 +1,24 @@
+@mixin Centralizar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+};
+
+@mixin btn {
+    width: 100%;
+    max-width: 10rem;
+    height: 3rem;
+    border-radius: 22px !important;
+    background: linear-gradient(167deg, $Lime-Green 5%, $Bright-Cyan 100%);
+    border: 2px transparent solid;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 600;
+    color: $White;
+    transition: .3s;
+        &:hover{
+            background: transparent;
+            border: 2px $Dark-Blue solid;
+            color: $Dark-Blue;
+            transform: scale(0.98);
+        }
+};
