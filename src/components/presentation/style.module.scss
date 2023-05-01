@@ -39,13 +39,46 @@
 .mockup{
     width: 50%;
         img{
-            width: 40rem;
+            width: 100%;
+            max-width: 40rem;
             height: 50rem;
-            position: absolute;
-            top: 0rem;
-            right: -2rem;
         }
 }
 .btn{
     @include btn
+}
+
+@media screen and (max-width: 1200px) {
+    .container{
+        height: 52rem;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        background: url(../../assets/images/bg-intro-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: 100% 75%;
+        background-position: top;
+    }
+    .text{
+        width: 100%;
+        padding: 0;
+        align-items: center;
+            .title{
+                text-align: center;
+                font-size: 2.1rem;
+                max-width: 100%;
+            }
+            .description{
+                text-align: center;
+                max-width: 100%;
+            }
+    }
+    .mockup{
+        width: 100%;
+        @include centralizar;
+            img{
+                max-width: 30rem;
+                height: 35rem;
+            }
+    }
 }

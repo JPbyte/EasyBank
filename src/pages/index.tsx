@@ -1,5 +1,5 @@
 import Header from "../components/header/header";
-import Presentation from "../components/presentation";
+import Presentation from "../components/presentation/presentation";
 
 
 function Home(){
