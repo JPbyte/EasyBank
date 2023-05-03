@@ -8,11 +8,21 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    @media screen and (max-width: 1200px) {
+        height: 100%;
+        padding-left: 1rem !important;
+    }
 }
 .title{
     font-family: 'Public Sans', sans-serif;
     font-size: 2.5rem;
     color: $Dark-Blue;
+
+    @media screen and (max-width: 1200px) {
+        font-size: 2rem;
+        text-align: center;
+    }
 }
 .articles{
     width: 100%;
@@ -21,4 +31,10 @@
     background-color: transparent;
     display: flex;
     justify-content: space-between;
+
+    @media screen and (max-width: 1200px) {
+        height: 110rem;
+        flex-direction: column;
+        align-items: center;
+    }
 }
