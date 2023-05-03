@@ -18,9 +18,9 @@ function Choose(){
     return(
         <Container fluid className={styles.container}>
             <div className={styles.titleDescription}>
-                <h1 className={styles.whyChoose}>
+                <h2 className={styles.whyChoose}>
                     Why choose Easybank?
-                </h1>
+                </h2>
                 <p className={styles.description}>
                     We leverange Open Banking to turn your bank account into your financial hub.
                     Control your finances like never before.
