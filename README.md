@@ -35,15 +35,15 @@ Desktop Design:
 
 ### Links
 
-- Solution URL: [Easybank landing page solution]()
-- Live Site URL: []()
+- Solution URL: [Easybank landing page solution](https://www.frontendmentor.io/solutions/responsive-landing-page-reactscssbootstrap-F_772MRNIv)
+- Live Site URL: [Deploy here](https://easy-bank-xi-plum.vercel.app)
 
 ## My process
 
 ### Built with
 
 - SASS/SCSS
-- [Bootstrao](https://getbootstrap.com) - Bootstrap
+- [Bootstrap](https://getbootstrap.com) - Bootstrap
 - [React](https://reactjs.org/) - JS library
 - [React-bootstrap](https://react-bootstrap.github.io) - React-bootstrap
 
@@ -52,3 +52,4 @@ Desktop Design:
 
 ### What I learned
 
+I learned to better develop the use of props and I learned to use CSS/SCSS modules and React-bootstrap
