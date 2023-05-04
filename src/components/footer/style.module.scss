@@ -1,0 +1,52 @@
+@import "../../styles/colors.module.scss";
+@import "../../styles/mixins.module.scss";
+
+.footer{
+    height: 20rem;
+    background-color: $Dark-Blue;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-content: center;
+    grid-gap: 5rem;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+        img{
+            filter: brightness(0) saturate(100%) invert(95%) sepia(5%) saturate(22%) hue-rotate(189deg) brightness(105%) contrast(106%);
+        }
+        .socialMidia{
+            width: 100%;
+            max-width: 9rem;
+            display: flex;
+            justify-content: space-between;
+        }
+}
+.nav{
+    width: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+        a{
+            text-decoration: none;
+            color: $White;
+            opacity: 0.9;
+        }
+}
+.copy{
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .btn{
+        @include btn;
+        margin-left: 3rem;
+    }
+    span{
+        font-family: 'Public Sans', sans-serif;
+        color: $Grayish-Blue;
+        opacity: 0.9;
+    }
+}

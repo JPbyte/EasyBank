@@ -1,3 +1,5 @@
+/* Compoentes-Page */
+import Footer from "../components/footer/footer";
 import Header from "../components/header/header";
 import LatestArticle from "../components/LatestArticles/Latest";
 import Presentation from "../components/presentation/presentation";
@@ -11,6 +13,7 @@ function Home(){
             <Presentation/>
             <Choose/>
             <LatestArticle/>
+            <Footer/>
         </>
     );
 }
